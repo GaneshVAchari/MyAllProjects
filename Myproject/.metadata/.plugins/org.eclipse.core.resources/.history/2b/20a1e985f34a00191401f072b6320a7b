@@ -1,0 +1,14 @@
+package glTest;
+
+public class SingleTonT {
+
+	public static void main(String[] args) {
+
+		SingletonTest s1=SingletonTest.getInstance();
+		System.out.println(s1);
+		SingletonTest s2=SingletonTest.getInstance();
+		System.out.println(s2);
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package glTest;
+
+final class Test2 {
+	int i=10;
+	final x=45.309;
+
+}

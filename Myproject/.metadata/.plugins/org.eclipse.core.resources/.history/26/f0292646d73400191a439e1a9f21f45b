@@ -1,0 +1,26 @@
+package com.collections;
+
+import java.util.Stack;
+
+public class StackPractice {
+
+	public static void main(String[] args) {
+
+		Stack s=new Stack();
+		s.push("A");
+		s.push("B");
+		s.push("C");
+		System.out.println(s);
+		System.out.println(s.capacity());
+		System.out.println(s.search("A"));
+		System.out.println(s.search("a"));
+		System.out.println(s.search("Z"));
+		s.pop();
+		System.out.println(s);
+		//s.pop();
+		//s.peek();
+		System.out.println(s);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package glTest;
+
+class Test2 {
+	int i=10;
+	final void getValue()
+	{
+		System.out.println(i);
+	}
+}
+
+class B extends Test2{
+	System.out.println("Hi");
+}

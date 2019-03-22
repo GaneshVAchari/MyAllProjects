@@ -1,0 +1,14 @@
+package glTest;
+
+public class SingletonTest {
+	
+	private SingletonTest()
+	{
+		
+	}
+	public static SingletonTest getInstance() {
+		return new SingletonTest();
+	}
+
+
+}

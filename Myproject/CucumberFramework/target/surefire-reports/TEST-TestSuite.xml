@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="56.594" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ganesh.achari\eclipse-workspace\CucumberFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ganesh.achari\eclipse-workspace\CucumberFramework"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\GANESH~1.ACH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ganesh.achari\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf820274401301815672.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\apache-maven-3.6.0\bin;C:\Users\ganesh.achari\AppData\Roaming\npm;C:\bin;C:\Protractor\;C:\Users\ganesh.achari\AppData\Local\Continuum\anaconda3;C:\Users\ganesh.achari\AppData\Local\Continuum\anaconda3\Library\mingw-w64\bin;C:\Users\ganesh.achari\AppData\Local\Continuum\anaconda3\Library\usr\bin;C:\Users\ganesh.achari\AppData\Local\Continuum\anaconda3\Library\bin;C:\Users\ganesh.achari\AppData\Local\Continuum\anaconda3\Scripts;C:\Users\ganesh.achari\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.3\bin;;C:\Users\ganesh.achari\AppData\Roaming\npm;C:\Users\ganesh.achari\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ganesh.achari"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ganesh.achari"/>
+    <property name="java.class.path" value="C:\Users\ganesh.achari\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\ganesh.achari\eclipse-workspace\CucumberFramework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="runner.RunCuke" time="56.594">
+    <failure message="java.lang.AssertionError: expected [Bmw 1 Series Under 1000 for sale | carsguide] but found [Bmw 1 Series Under 1000 for Sale | carsguide]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Bmw 1 Series Under 1000 for sale | carsguide] but found [Bmw 1 Series Under 1000 for Sale | carsguide]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.AssertionError: expected [Bmw 1 Series Under 1000 for sale | carsguide] but found [Bmw 1 Series Under 1000 for Sale | carsguide]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at steps.SearchCarSteps.the_page_title_should_be(SearchCarSteps.java:73)
+	at ✽.And the page title should be "Bmw 1 Series Under 1000 for sale | carsguide"(SearchCars.feature:21)
+</failure>
+    <system-out><![CDATA[@Search-Cars
+Feature: Acceptance testing to validate search cars options
+  In order to validate that 
+  the search car page is working fine
+  we will do the acceptance testing
+Menu selected is : buy + sell
+Cars list found
+Actual title is: Bmw 1 Series Under 1000 for Sale | carsguide
+
+  @Search-Cars-Positive
+  Scenario: Validate search cars page                                           &amp#27;[90m# SearchCars.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the home page "&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://www.carsguide.com.au&amp#27;[0m&amp#27;[32m" of cars website&amp#27;[0m  &amp#27;[90m# SearchCarSteps.i_am_on_the_home_page_of_cars_website(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI move to Menu&amp#27;[0m                                                         &amp#27;[90m# SearchCarSteps.i_move_to_Menu(String>)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on "&amp#27;[0m&amp#27;[32m&amp#27;[1mSearch Cars&amp#27;[0m&amp#27;[32m" link&amp#27;[0m                                             &amp#27;[90m# SearchCarSteps.click_on_link(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mselect car brand as "&amp#27;[0m&amp#27;[32m&amp#27;[1mBMW&amp#27;[0m&amp#27;[32m" from Anymake&amp#27;[0m                                  &amp#27;[90m# SearchCarSteps.select_car_brand_as_from_Anymake(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mselect car model as "&amp#27;[0m&amp#27;[32m&amp#27;[1m1 SERIES&amp#27;[0m&amp#27;[32m" from Cars model&amp#27;[0m                          &amp#27;[90m# SearchCarSteps.select_car_model_as_from_Cars_model(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mselect "&amp#27;[0m&amp#27;[32m&amp#27;[1mAustralia&amp#27;[0m&amp#27;[32m" from Select Location dropdown&amp#27;[0m                        &amp#27;[90m# SearchCarSteps.select_from_Select_Location_dropdown(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mselect "&amp#27;[0m&amp#27;[32m&amp#27;[1m$1,000&amp#27;[0m&amp#27;[32m" from Price dropdown&amp#27;[0m                                     &amp#27;[90m# SearchCarSteps.select_from_Price_dropdown(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Find My Next Car button&amp#27;[0m                                        &amp#27;[90m# SearchCarSteps.click_on_Find_My_Next_Car_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see list of searched cars&amp#27;[0m                                     &amp#27;[90m# SearchCarSteps.i_should_see_list_of_searched_cars()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe page title should be "&amp#27;[0m&amp#27;[31m&amp#27;[1mBmw 1 Series Under 1000 for sale | carsguide&amp#27;[0m&amp#27;[31m"&amp#27;[0m &amp#27;[90m# SearchCarSteps.the_page_title_should_be(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [Bmw 1 Series Under 1000 for sale | carsguide] but found [Bmw 1 Series Under 1000 for Sale | carsguide]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at steps.SearchCarSteps.the_page_title_should_be(SearchCarSteps.java:73)
+      	at ?.And the page title should be "Bmw 1 Series Under 1000 for sale | carsguide"(SearchCars.feature:21)
+      &amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1553066979368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GANESH~1.ACH\\AppData\\Local\\Temp\\rust_mozprofile.OP2vRP46W0Cw"
+console.error: JsonSchemaValidator.jsm: 
+  Object expected but not received
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1553066981405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1553066981405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1553066987297	Marionette	INFO	Listening on port 54642
+1553066987354	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 20, 2019 12:59:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1553067003184	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1553067024404	Marionette	INFO	Stopped listening on port 54642
+JavaScript error: https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js, line 8: ReferenceError: event is not defined
+JavaScript error: https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js, line 8: ReferenceError: event is not defined
+[Parent 7048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js, line 8: ReferenceError: event is not defined
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Chil
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+d 10120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[GPU 4092, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+me_ChildThread] WARNING: pipe err
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="runner.RunCuke" time="46.526"/>
+</testsuite>
