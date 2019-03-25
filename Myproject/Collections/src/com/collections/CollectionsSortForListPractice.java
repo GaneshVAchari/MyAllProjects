@@ -13,6 +13,7 @@ public class CollectionsSortForListPractice {
 		al.add("B");
 		al.add("H");
 		al.add("S");
+		al.add("M");
 		//al.add(10); ClassCastException
 		//al.add(null); Nullpointer exception
 		System.out.println("Before sorting" +al);
