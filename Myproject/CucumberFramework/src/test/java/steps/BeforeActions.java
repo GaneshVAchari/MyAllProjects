@@ -8,6 +8,7 @@ public class BeforeActions {
 	@Before()
 	public static void setUp()
 	{
+		//Before 
 		SeleniumDriver.setUpDriver();
 	}
 
