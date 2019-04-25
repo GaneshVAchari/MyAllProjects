@@ -27,6 +27,7 @@ public class LoginTest{
 		CreateAccountPage cap=account.gotoCreateAccounts();
 		cap.createAccount("Ganesh");
 		
+		
 	}
 
 }
