@@ -18,7 +18,7 @@ public class ApiJson {
                "types" : [ "locality", "political" ]
             },
             {
-               "long_name" : "Bhopal",
+               "long_name" : "MP",
                "short_name" : "Bhopal",
                "types" : [ "administrative_area_level_2", "political" ]
             },
@@ -76,6 +76,7 @@ public class ApiJson {
 		//Getting results
 		JSONArray result=jsObj.getJSONArray("results");
 		System.out.println("Result is: "+result);
+		System.out.println("------------------");
 
 		//Getting address component
 		JSONObject result1=result.getJSONObject(0);
@@ -102,6 +103,7 @@ public class ApiJson {
 
 		String value0_2=types.getString(1);
 		System.out.println("1st index value in types: "+value0_2);
+		System.out.println("--------------------------");
 
 		//Getting long_name,short_name,types in 1st object
 		System.out.println("long_name,short_name,types in 1st object:");
@@ -120,6 +122,7 @@ public class ApiJson {
 
 		String value1_2=types.getString(1);
 		System.out.println("1st index value in types: "+value1_2);
+		System.out.println("--------------------------");
 
 		//Getting long_name,short_name,types in 2nd object
 		System.out.println("long_name,short_name,types in 2nd object:");
@@ -138,6 +141,7 @@ public class ApiJson {
 
 		String value2_2=types.getString(1);
 		System.out.println("1st index value in types: "+value2_2);
+		System.out.println("--------------------------");
 
 		//Getting long_name,short_name,types in 3rd object
 		System.out.println("long_name,short_name,types in 3rd object:");
@@ -155,12 +159,14 @@ public class ApiJson {
 
 		String value3_2=types.getString(1);
 		System.out.println("1st index value in types: "+value3_2);
+		System.out.println("--------------------------");
 
 		//Getting formatted_address 
 		System.out.println("formatted_address is:");
 		System.out.println("---------------------");
 		String formatted_address=result1.getString("formatted_address");
 		System.out.println("Formatted address is: "+formatted_address);
+		System.out.println("----------------------");
 		
 		
 		//Getting geometry
@@ -168,12 +174,14 @@ public class ApiJson {
 		System.out.println("------------");
 		JSONObject geometry=result1.getJSONObject("geometry");
 		System.out.println("geometry is : "+geometry);
+		System.out.println("--------------");
 		
 		//Getting bounds
 		System.out.println("Bounds");
 		System.out.println("------");
 		JSONObject bounds=geometry.getJSONObject("bounds");
 		System.out.println(bounds);
+		System.out.println("--------");
 		
 		//Getting northeast and southwest in bounds
 		System.out.println("Northeast and southwest are");
@@ -191,6 +199,7 @@ public class ApiJson {
 		System.out.println("lat is: "+latS);
 		double lngS=southwest.getDouble("lng");
 		System.out.println("lng is:" +lngS);
+		System.out.println("------------------");
 		
 		//Getting location
 		System.out.println("Location is ");
@@ -201,18 +210,21 @@ public class ApiJson {
 		System.out.println("lat is: "+latl);
 		double lngl=location.getDouble("lng");
 		System.out.println("lat is: "+lngl);
+		System.out.println("--------------------------");
 		
 		//getting location_type
 		System.out.println("Location type is");
 		System.out.println("----------------");
 		String loc_type=geometry.getString("location_type");
 		System.out.println(loc_type);
+		System.out.println("--------------------------");
 		
 		//getting viewport
 		System.out.println("Viewports");
 		System.out.println("---------");
 		JSONObject viewport=geometry.getJSONObject("viewport");
 		System.out.println(viewport);
+		System.out.println("--------------------------");
 		
 		//Getting Northeast and southwest
 		System.out.println("Northeast and southwest are");
@@ -230,6 +242,7 @@ public class ApiJson {
 		System.out.println("Lat is "+latSV);
 		double lngSV=southwestView.getDouble("lng");
 		System.out.println("lng is "+lngSV);
+		System.out.println("--------------------------");
 		
 		
 		//Getting place_id
@@ -237,6 +250,7 @@ public class ApiJson {
 		System.out.println("-----------");
 		String place_id=result1.getString("place_id");
 		System.out.println(place_id);
+		System.out.println("--------------------------");
 		
 		//Getting types
 		System.out.println("Types");
@@ -247,6 +261,7 @@ public class ApiJson {
 		System.out.println("First value is: "+vlaueT1);
 		String vlaueT2=type.getString(1);
 		System.out.println("First value is: "+vlaueT2);
+		System.out.println("--------------------------");
 		
 		//Getting status
 		System.out.println("Status is");
