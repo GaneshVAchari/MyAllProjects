@@ -106,7 +106,7 @@ public class ApiJson {
 		System.out.println("--------------------------");
 
 		//Getting long_name,short_name,types in 1st object
-		System.out.println("long_name,short_name,types in 1st object:");
+		System.out.println("long_name,short_name,types in 1st object is :");
 		System.out.println("----------------------------------------");
 		JSONObject add_com_1=add_comp.getJSONObject(1);
 		String long_name_1=add_com_1.getString("long_name");
@@ -268,7 +268,6 @@ public class ApiJson {
 		System.out.println("---------");
 		String status=jsObj.getString("status");
 		System.out.println(status);
-		
-
+   
 	}
 }

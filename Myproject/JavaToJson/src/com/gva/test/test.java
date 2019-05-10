@@ -16,15 +16,12 @@ public class test {
 		System.out.println("Final json format:"+jsonEmp);
 		
 		//To convert JSOn to Java
-		/*
-		 * System.out.println("====================");
-		 * System.out.println("Final java object format"); Employee
-		 * emp1=JsonUtil.convertJsonToJava(jsonEmp, Employee.class);
-		 * System.out.println(emp1.getEmpNo()+"  "+emp1.getName()+"  "+emp1.getSalary())
-		 * ;
-		 */
 		
-
+		 System.out.println("====================");
+		 System.out.println("Final java object format"); Employee
+		 emp1=JsonUtil.convertJsonToJava(jsonEmp, Employee.class);
+		 System.out.println(emp1.getEmpNo()+"  "+emp1.getName()+"  "+emp1.getSalary());
+		 
 	}
 
 }
